@@ -1,0 +1,46 @@
+:root{
+  --brand:#5b7cfa;
+}
+
+body{
+  background: #f6f7fb;
+}
+
+.navbar-brand .badge{
+  background: var(--brand);
+}
+
+.hero{
+  background: radial-gradient(1200px 400px at 10% 10%, rgba(91,124,250,.25), transparent),
+              radial-gradient(900px 300px at 90% 20%, rgba(0,200,150,.18), transparent),
+              #111827;
+  color:#fff;
+  border-radius: 1.25rem;
+}
+
+.card{
+  border: 0;
+  border-radius: 1.25rem;
+  box-shadow: 0 6px 20px rgba(0,0,0,.06);
+}
+
+.section-title{
+  font-weight: 800;
+  letter-spacing: -.02em;
+}
+
+.table td, .table th{
+  vertical-align: middle;
+}
+
+.tutor-row-selected{
+  background: rgba(91,124,250,.12) !important; /* выделение выбранного репетитора
+}
+
+small.muted{
+  color: rgba(255,255,255,.75);
+}
+
+.footer{
+  color:#6b7280;
+}
